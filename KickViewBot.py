@@ -62,7 +62,7 @@ def run_script(url, num_threads):
         process.join()
 
 if __name__ == '__main__':
-    url = 'https://example.com'
+    url = 'https://kick.com/bige'
     num_threads = int(input('Enter the number of threads to use: '))
     run_script(url, num_threads)
 
